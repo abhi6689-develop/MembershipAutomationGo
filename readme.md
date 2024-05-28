@@ -1,4 +1,3 @@
-```markdown
 # Go TCP Server with Redis State Management
 
 This repository consists of two main components: a Head and multiple Workers. Together, they form a resilient system for managing TCP connections and node states using Redis. The Head sends periodic messages, while Workers listen for these messages and respond to changes, including handling orphaned states.
@@ -81,4 +80,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - Thanks to the Go community for providing extensive libraries and tools.
 - Special thanks to contributors of the `github.com/go-redis/redis` package.
-```
+
