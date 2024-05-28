@@ -1,4 +1,4 @@
-# Dynamic Cluster Membership Autoscaling Environments
+# Dynamic Cluster Membership in Autoscaling Environments
 
 This repository hosts a Go application designed to operate robustly within autoscaling environments, handling dynamic reassignment of worker nodes to new head nodes as scaling events occur. The system ensures continuous operation and state management through the use of Redis, even as head nodes are pruned during scale-down operations.
 
